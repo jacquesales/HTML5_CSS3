@@ -13,9 +13,8 @@ Website codificado com a linguagem de marcação HTML versão 5, juntamente com 
 - [Contato](https://jacquesales.github.io/contact.html "Contato")
 
 
-[========]
 
-######HTML
+###### HTML
 ```html
 <!DOCTYPE html>
 <html lang="pt-br">
