@@ -1,116 +1,119 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-	<title>Jobs</title><
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="css_projeto_jobs.css">
-	<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Open+Sans+Condensed&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-</head>
-<body>	
-	<div class="container" id=contact>
-		<header>
-			<nav>
-				<div class="nav-container">
-					<a href="index.html">
-						<img id="logo" src="Img/logo_site.png" alt="Jobs">
-					</a>
-					<i class="fas fa-bars btn-menumobile"></i>
-					<ul>
-						<li><a href="findjobs.html">Encontrar vaga</a></li>
-						<li><a href="sendjobs.html">Enviar vaga</a></li>
-						<li><a href="contact">Contato</a></li>
-					</ul>
-				</div>								
-			</nav>				
-		</header>	
-		<div id="contact-banner">		
-		</div>
-		<div><div><h3>Contate-nos</h3></div>
-		<div id="contact-main">			
-			<form id="contact-form">
-				<div class="contact-label">
-					<label class="ct-label">Nome *</label>
-					<input type="text" required name="name">
-				</div>
-				<div class="contact-label">
-					<label>Email *</label>
-					<input type="email" required name="email">
-				</div>
-				<div class="contact-label">
-					<label>Assunto *</label>
-					<input type="text" required name="subject">
-				</div>
-				<div class="contact-label">	
-					<label>Mensagem *</label>
-					<textarea type="text" required name="message" maxlength="200"></textarea>
-				</div>
+<html lang="pt-BR">
+	<head>
+		<title>Jobs</title><
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css_projeto_jobs.css">
+		<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Open+Sans+Condensed&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	</head>
+	<body>	
+		<div class="container" id=contact>
+			<header>
+				<nav>
+					<div class="nav-container">
+						<a href="index.html">
+							<img id="logo" src="Img/logo_site.png" alt="Jobs">
+						</a>
+						<i class="fas fa-bars btn-menumobile"></i>
+						<ul>
+							<li><a href="findjobs.html">Encontrar vaga</a></li>
+							<li><a href="sendjobs.html">Enviar vaga</a></li>
+							<li><a href="contact" class="highlight">Contato</a></li>
+						</ul>
+					</div>								
+				</nav>				
+			</header>	
+			<div id="contact-banner">
 				<div>
-					<button class="btn-enviar" type="submit" name="enviar">Enviar</button>
-				</div>
-			</form>			
-		</div>					
-		<footer>
-			<div class="wrapper">
-				<div class="footer-box">
-					<div class="company-footer">
-						<img src="Img/logo_site.png">
-						<h2>Jobs</h2>
-						<p>A maneira mais eficiente de encontar seu novo emprego</p>						
-					</div>		
-				</div>
-				<div class="footer-box">
-					<div class="articles-footer">						
-						<h2>Artigos recentes</h2>
-						<ul class="footer-list footer-article-list">
-							<li>
-								<a href="#">Como conseguir o 1º emprego em tempos de crise?</a>
-								<span class="article-date">01 de março de 2020</span>
-							</li>	
-							<li>
-								<a href="#">Produtividade X Qualidade</a>
-								<span class="article-date">20 de março de 2020</span>
-							</li>
-							<li>
-								<a href="#">Incorporando a tecnologia nas PME's</a>
-								<span class="article-date">05 de abril de 2020</span>
-							</li>
-						</ul>						
+					<h3>Contate-nos</h3>
+					<div id="contact-main">			
+						<form id="contact-form">
+							<div class="contact-label">
+								<label class="ct-label">Nome *</label>
+								<input type="text" required name="name">
+							</div>
+							<div class="contact-label">
+								<label>Email *</label>
+								<input type="email" required name="email">
+							</div>
+							<div class="contact-label">
+								<label>Assunto *</label>
+								<input type="text" required name="subject">
+							</div>
+							<div class="contact-label">	
+								<label>Mensagem *</label>
+								<textarea type="text" required name="message" maxlength="200"></textarea>
+							</div>
+							<div>
+								<button class="btn-enviar" type="submit" name="enviar">Enviar</button>
+							</div>
+						</form>			
 					</div>
 				</div>
-				<div class="footer-box">
-					<h2>Nos encontre nas redes sociais</h2>
-					<ul class="footer-list"></ul>
-						<li>
-							<a href="#">
-								<i class="fab fa-facebook-square"></i>
-								<span>Facebook</span>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<i class="fab fa-instagram"></i>
-								<span>Instagram</span>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<i class="fab fa-linkedin"></i>
-								<span>Linkedin</span>
-							</a>
-						</li>					
+			</div>				
+							
+			<footer>
+				<div class="flex">
+					<div class="footer-box">
+						<div class="company-footer">
+							<img src="Img/logo_site.png">
+							<h2>Jobs</h2>
+							<p>A maneira mais eficiente de encontar seu novo emprego</p>						
+						</div>		
+					</div>
+					<div class="footer-box">
+						<div class="articles-footer">						
+							<h2>Artigos recentes</h2>
+							<ul class="footer-list footer-article-list">
+								<li>
+									<a href="#">Como conseguir o 1º emprego em tempos de crise?</a>
+									<span class="article-date">01 de março de 2020</span>
+								</li>	
+								<li>
+									<a href="#">Produtividade X Qualidade</a>
+									<span class="article-date">20 de março de 2020</span>
+								</li>
+								<li>
+									<a href="#">Incorporando a tecnologia nas PME's</a>
+									<span class="article-date">05 de abril de 2020</span>
+								</li>
+							</ul>						
+						</div>
+					</div>
+					<div class="footer-box">
+						<h2>Nos encontre nas redes sociais</h2>
+						<ul class="footer-list"></ul>
+							<li>
+								<a href="#">
+									<i class="fab fa-facebook-square"></i>
+									<span>Facebook</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fab fa-instagram"></i>
+									<span>Instagram</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fab fa-linkedin"></i>
+									<span>Linkedin</span>
+								</a>
+							</li>					
+					</div>
 				</div>
-			</div>
-			<div class="footer-bottom">
-				<div class="wrapper">
-					<p>Jacqueline Sales inspired by horadeCodar - 2020</p>					
-				</div>				
-			</div>
-		</footer>
-	</div>
-	<script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
-	<script src="JS/script_projeto_jobs.js" type="text/javascript"></script>
+				<div class="footer-bottom">
+					<div class="wrapper">
+						<p>Jacqueline Sales inspired by horadeCodar - 2020</p>					
+					</div>				
+				</div>
+			</footer>
+		</div>
+		<script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+		<script src="JS/script_projeto_jobs.js" type="text/javascript"></script>
 </body>
 </html>

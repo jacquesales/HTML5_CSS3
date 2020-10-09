@@ -1,29 +1,29 @@
 <!DOCTYPE html>
-<html lang="pt-br"><!--língua portuguesa--> <!-- -->
+<html lang="pt-BR">
 
 <head>
-	<title>Jobs</title><!--aba do navegador-->
-	<meta charset="utf-8"><!--usado para exibir acentos-->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"><!--site responsivo-->
-	<link rel="stylesheet" type="text/css" href="css_projeto_jobs.css"><!-- documento CSS referenciado-->
-	<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Open+Sans+Condensed&display=swap" rel="stylesheet"><!--fonte Google-->
-	<link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet"><!--fonte Google-->	
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous"><!--Ícones Fontawesome-->
+	<title>Jobs</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css_projeto_jobs.css">
+	<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Open+Sans+Condensed&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">	
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
 
 <body>	
-	<div class="container" id="findjobs"><!--limita a área útil lá no css-->
-		<header><!--cabeçalho: logo/navegação + search-form-->
-			<nav><!--tudo dentro do nav é uma barra de navegação-->
-				<div class="nav-container"><!--para diferenciar do 1º container maior acima-->
-					<a href="index.html"><!--Link na imagem (logo) para que ao clicar, seja redirecionado a home-->
-						<img id="logo" src="Img/logo_site.png" alt="Jobs"><!--logotipo-->
+	<div class="container" id="findjobs">
+		<header>
+			<nav>
+				<div class="nav-container">
+					<a href="index.html">
+						<img id="logo" src="img/logo_site.png" alt="Jobs">
 					</a>
-					<i class="fas fa-bars btn-menumobile"></i><!--ícone de menu para dispositivo mobile-->
-					<ul><!--representará as opções de navegação, ao lado do logo-->
-						<li><a href="findjobs.html">Encontrar vaga</a></li><!--representarão os links que levarão às páginas; # puxa um link para levar a outra pág -->
-						<li><a href="#">Enviar vaga</a></li>
-						<li><a href="#">Contato</a></li>
+					<i class="fas fa-bars btn-menumobile"></i>
+					<ul>
+						<li><a href="findjobs.html" class="highlight">Encontrar vaga</a></li>
+						<li><a href="sendjobs.html">Enviar vaga</a></li>
+						<li><a href="contact.html">Contato</a></li>
 					</ul>
 				</div>								
 			</nav>			
@@ -139,7 +139,7 @@
 			 </div>		
 		</main>
 		<footer>
-			<div class="wrapper">
+			<div class="flex">
 				<div class="footer-box">
 					<div class="company-footer">
 						<img src="Img/logo_site.png">
@@ -197,6 +197,6 @@
 		</footer>
 	</div>
 	<script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script><!--recurso JQuery referenciado, disponibilidade em servidor: jQuery 3.x ; minified -->
-	<script src="JS/script_projeto_jobs.js" type="text/javascript"></script><!--documento JS referenciado-->
-</body>
+	<script src="JS/script_projeto_jobs.js" type="text/javascript"></script>
+	</body>
 </html>
