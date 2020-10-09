@@ -5,14 +5,11 @@ Website codificado com a linguagem de marcação HTML versão 5, juntamente com 
 
 
 
-### Projeto Jobs
+##### Para visualizar
 
-- [Home Page](https://jacquesales.github.io/ "Home Page")
-- [Encontrar vaga](https://jacquesales.github.io/findjobs.html "Encontrar vaga")
-- [Modelo de vaga](https://jacquesales.github.io/job.html "Modelo de vaga")
-- [Enviar vaga](https://jacquesales.github.io/sendjobs.html "Enviar vaga")
-- [Contato](https://jacquesales.github.io/contact.html "Contato")
-
+- Faça clone do repositório
+- Abra-o no VS Code
+- Com a extensão Live Server
 
 
 ###### HTML
