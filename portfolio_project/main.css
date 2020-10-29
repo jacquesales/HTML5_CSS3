@@ -1,0 +1,287 @@
+/* ---------GLOBAL STYLES--------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main .content-narrow {
+    height: 90vh;
+    padding: 0 10rem;
+}
+
+main .content-wide {
+    height: 90vh;
+    width: 100%;
+    background-color: #f8edeb;
+}
+
+.title {  
+    margin: 2rem 0;
+    padding: 1rem 0;
+    text-transform: uppercase;
+    text-align: center;    
+}
+.title::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 3px;
+    background: #00afb9;
+    margin: 0 auto;
+}
+
+/* ---------NAVIGATION SECTION--------- */
+nav {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    height: 10vh;
+    padding: 2rem;
+    background-color: #e29578;
+    align-items: center;
+    justify-content:space-between; 
+    box-shadow: 2px 2px 4px rgb(54, 54, 54);   
+}
+
+nav .name {
+    color: white;
+    font-weight: bold;
+    letter-spacing: .7rem;
+}
+
+nav .menu ul {
+    list-style: none;
+    display: flex;    
+}
+
+nav .menu ul li {
+    margin-left: 1.5rem;
+    letter-spacing: .2rem;
+}
+
+nav .menu ul li a {
+    text-decoration: none;
+    padding: 1rem;
+    color: white;
+}
+
+nav .menu ul li a:hover,
+nav .menu ul li a:focus { 
+    border-bottom: 1px solid white;
+}
+
+nav .menu ul li a:hover {
+    transition: all 0.7s ease;
+}
+
+/* ---------HEADER SECTION--------- */
+header {
+    padding-top: 2rem;
+    background-image: url('/img/banner.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header .container {
+    padding: 2rem;
+    width: 30%;
+    height: auto;
+    line-height: 5rem;
+    font-size: clamp(1.2rem, 2.6vw, 3rem);
+    color: white;
+}
+
+.container p, 
+.container h1 {
+    text-shadow: 2px 2px 2px black;
+}
+
+.btn-work, 
+.btn-contact {
+    border-radius: 4px;
+    padding: .8rem 1rem;
+    cursor: pointer;
+    font-size: .8rem;
+    font-weight: bold;
+    color: white;
+    outline: none;
+}
+
+.btn-work {
+    background-color: #00afb9;
+    border: 1px solid  #00afb9;    
+}
+
+.btn-contact {
+    background-color: #006d77;
+    border: 1px solid  #006d77;    
+}
+
+.btn-work:hover, 
+.btn-contact:hover  {
+    background: transparent;
+    transition: background .4s ease;   
+}
+
+/* ---------ABOUT ME SECTION--------- */
+.about-me .col-left,
+.about-me .col-right {
+    width: 50%;
+    float: left;
+}
+
+main .about-me .col-left {
+    padding: 0 2rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+main .about-me .col-left img {
+    max-width: 60%
+}
+
+.about-me .col-right h4,
+.about-me .col-right p {
+    font-size: clamp(1rem, 2.2vw, 1.2rem);
+    margin-bottom: 2rem;
+    text-align: justify;
+}
+
+.btn-standard {
+    background-color: #006d77;
+    border: none;
+    border-radius: 4px;
+    padding: .8rem 1rem;
+    cursor: pointer;
+    font-size: .8rem;
+    font-weight: bold;
+    color: white;
+    outline: none;
+}
+.btn-standard:hover {
+    background-color: #00afb9;
+    transition: background .6s ease;
+}
+
+/* ---------MY SKILLS SECTION--------- */
+main .my-skills .all-skills {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+main .all-skills .box-skill {
+    padding: 0 3rem;
+    text-align: center;
+}
+
+main .box-skill i {
+    font-size: 3rem;
+    color: #495057;
+}
+
+main .box-skill h4 {
+    margin: 2rem 0;
+}
+
+main .box-skill p {
+    color: #6c757d;
+    text-align: justify;
+}
+
+/* ---------MY PROJECTS SECTION--------- */
+main .my-projects .all-projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 40vh;
+    text-align: center;
+}
+
+main .all-projects .box-project {    
+    margin: 0 1rem;
+    background-size: cover;
+    position: relative;
+    float: left;
+    overflow: hidden;
+}
+
+.proj1 {    
+    background-image: url(/img/proj1.jpg);
+}
+.proj2 {    
+    background-image: url(/img/proj2.jpg);    
+}
+.proj3 {    
+    background-image: url(/img/proj3.jpg);    
+}
+
+main .box-project .overlay {
+    width: 100%;
+    height: 40vh;
+    position: absolute;    
+    padding-top: 260px;
+}
+main .box-project .overlay:hover {
+    background-color: rgba(0,0,0,0.6);    
+    padding-top: 100px;
+    transition: all .6s ease;    
+}
+
+main .overlay button {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: .8rem 1rem;
+    cursor: pointer;
+    font-size: .8rem;
+    font-weight: bold;
+    color: white;
+    outline: none;
+}
+
+/* ---------CONTACT SECTION--------- */
+main .contact-me {    
+    text-align: center;
+}
+
+main .contact-me > p {
+    font-size: 1.2rem;
+    margin-bottom: 4rem;
+}
+
+main .contact-me .social-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;    
+    line-height: 1.5rem;  
+}
+
+main .social-container .box-social i {
+    font-size: 2rem;
+    color:#ce7f62;
+}
+
+main .box-social div:first-of-type {
+    margin-bottom: 3.5rem;
+}
+
+main .box-social .text-bold {
+    font-weight: bold;
+}
+
+.box-social a,
+.box-social a:visited {
+    text-decoration: none;
+    color: rgba(15, 16, 77,.8);
+}
+
+/* ---------FOOTER SECTION--------- */
+footer {
+        background-color: #504941;
+        padding: 1.5rem;
+        color: white;
+        line-height: .9rem;
+        text-align: center;
+        box-shadow: 0px 0px 8px 1px #000000;
+}
