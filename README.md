@@ -1,5 +1,5 @@
 # HTML5 & CSS3
-Website codificado com a linguagem de marcação HTML versão 5, juntamente com  estilo CSS versão 3.
+Websites codificados com a linguagem de marcação HTML versão 5, juntamente com o estilo CSS versão 3.
 
 ![](https://i.imgur.com/bWZsb8e.png)
 
